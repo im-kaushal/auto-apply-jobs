@@ -1,0 +1,8 @@
+{
+  "name": "Auto Apply Jobs & Recruiter Outreach Hub",
+  "description": "Automated tech recruiter outreach, curated target company tracker, and daily job application sync dashboard for Kaushal Kumar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
