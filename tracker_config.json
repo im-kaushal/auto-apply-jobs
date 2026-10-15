@@ -1,0 +1,14 @@
+{
+  "spreadsheet_id": "1MUUvv4eULJP0uvcFAPoGP_B1y0AXyL0vhkTHoN1z_Po",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1MUUvv4eULJP0uvcFAPoGP_B1y0AXyL0vhkTHoN1z_Po/edit",
+  "apps_script_webhook_url": "https://script.google.com/macros/s/AKfycby7GvgtNlJoIVL6L-OR2la73FMh3u_VqxKQgDV4wGRDHd8HiKoQSxfFM9NOoEkxwmDMwA/exec",
+  "candidate_profile": {
+    "name": "Kaushal Kumar",
+    "location": "Bengaluru, India",
+    "experience_years": 3.5,
+    "primary_stack": ["React.js", "Angular", "React Native", "TypeScript", "Redux Toolkit", "TanStack Query", "Tailwind CSS"],
+    "devops_cicd": ["OpenShift", "Harness", "Jenkins", "Docker", "AWS"],
+    "ai_tools": ["Claude Certified Architect", "GitHub Copilot"],
+    "domains": ["Banking/Fintech", "Hospitality/Incident Management", "Insurance"]
+  }
+}

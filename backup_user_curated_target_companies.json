@@ -1,0 +1,938 @@
+{
+  "tab": "Target Companies",
+  "gid": "123456789",
+  "total_rows": 134,
+  "headers": [
+    "Company Name",
+    "Sector",
+    "Career Portal (Direct ATS Link)",
+    "Audit Status",
+    "Notes / Platform Details"
+  ],
+  "rows": [
+    [
+      "Practo",
+      "HealthTech",
+      "https://practo.app.param.ai/jobs/",
+      "Working & Direct",
+      "Existing URL automatically redirects (301/302) to Param ATS job board."
+    ],
+    [
+      "Cars24",
+      "Automotive / Consumer",
+      "https://careers.cars24.com/#roles",
+      "Working & Direct",
+      "Existing page directly hosts active searchable job openings table at #roles."
+    ],
+    [
+      "PolicyBazaar",
+      "Fintech / InsurTech",
+      "https://in.linkedin.com/company/policybazaar-com/jobs/",
+      "Generic Landing",
+      "Sheet URL points to a static marketing overview without active job listings (#dreamjob is empty). Live roles are posted on LinkedIn / Naukri."
+    ],
+    [
+      "PayPal India",
+      "Fintech",
+      "https://careers.pypl.com/home/default.aspx",
+      "Working & Direct",
+      "Direct job search widget and category browse. India search: https://careers.pypl.com/locations/default.aspx"
+    ],
+    [
+      "Urban Company",
+      "Consumer Services",
+      "https://careers.urbancompany.com/jobs",
+      "Generic Landing",
+      "Existing URL is a culture homepage. The direct open positions portal is https://careers.urbancompany.com/jobs."
+    ],
+    [
+      "Amazon India",
+      "E-Commerce/Cloud",
+      "https://www.amazon.jobs/en/locations/bangalore-india",
+      "Generic Landing",
+      "Existing link is global home. Recommended direct portal for Indian tech talent is Bengaluru / India filtered jobs."
+    ],
+    [
+      "Nykaa",
+      "E-Commerce",
+      "https://careers.nykaa.com/",
+      "Generic Landing",
+      "Existing URL redirects to corporate story page (who_are_we/lp#wwrcopen) with mailto. Correct active ATS job portal is https://careers.nykaa.com/."
+    ],
+    [
+      "Chargebee",
+      "SaaS/Fintech",
+      "https://www.chargebee.com/careers/join-us/",
+      "Generic Landing",
+      "Marketing overview page; directs applicants to https://www.chargebee.com/careers/join-us/ and LinkedIn jobs."
+    ],
+    [
+      "PhonePe",
+      "Fintech",
+      "https://www.phonepe.com/careers/job-openings/",
+      "Generic Landing",
+      "Sheet points to overview page. Direct job listings with search and department filters is at /careers/job-openings/."
+    ],
+    [
+      "Elfonze Technologies",
+      "Tech Services",
+      "https://elfonze.zohorecruit.in/jobs/Careers",
+      "Generic Landing",
+      "Sheet has root corporate homepage. Actual direct candidate job portal is hosted on Zoho Recruit at https://elfonze.zohorecruit.in/jobs/Careers."
+    ],
+    [
+      "ServiceNow",
+      "Enterprise SaaS",
+      "https://careers.servicenow.com/jobs/",
+      "Working & Direct",
+      "Direct job search engine on homepage; full direct listings page is at https://careers.servicenow.com/jobs/."
+    ],
+    [
+      "Freshworks",
+      "SaaS",
+      "https://careers.smartrecruiters.com/Freshworks",
+      "Generic Landing",
+      "Marketing overview page. Direct open positions ATS portal is hosted on SmartRecruiters (https://careers.smartrecruiters.com/Freshworks)."
+    ],
+    [
+      "Whatfix",
+      "SaaS",
+      "https://whatfix101.recruiterbox.com/#content",
+      "Generic Landing",
+      "Overview page; direct open positions ATS board is hosted on Recruiterbox (https://whatfix101.recruiterbox.com/#content)."
+    ],
+    [
+      "Innovaccer",
+      "HealthTech/SaaS",
+      "https://innovaccer.com/careers/jobs",
+      "Generic Landing",
+      "Overview page; direct active listings portal is https://innovaccer.com/careers/jobs."
+    ],
+    [
+      "Salesforce",
+      "Enterprise Cloud",
+      "https://www.salesforce.com/company/careers/jobs",
+      "Generic Landing",
+      "Redirects to /company/careers/; direct search portal with all listings is https://www.salesforce.com/company/careers/jobs."
+    ],
+    [
+      "Perfios",
+      "Fintech/B2B",
+      "https://perfios.darwinbox.in/ms/candidate/careers/",
+      "Generic Landing",
+      "Redirects to perfios.ai marketing page; direct open jobs ATS portal is hosted on Darwinbox at https://perfios.darwinbox.in/ms/candidate/careers/."
+    ],
+    [
+      "Atlassian",
+      "Dev Tools/SaaS",
+      "https://www.atlassian.com/company/careers/all-jobs",
+      "Generic Landing",
+      "Overview page; direct open job search portal with 270+ listings is https://www.atlassian.com/company/careers/all-jobs."
+    ],
+    [
+      "Deutsche Bank",
+      "Banking/Fintech",
+      "https://careers.db.com/professionals/search-roles",
+      "Generic Landing",
+      "Overview portal; direct professional job search engine is https://careers.db.com/professionals/search-roles."
+    ],
+    [
+      "Razorpay",
+      "Fintech",
+      "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited",
+      "Generic Landing",
+      "Redirects to /careers/; direct open roles ATS board is hosted on Greenhouse at https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited."
+    ],
+    [
+      "Darwinbox",
+      "HR Tech/SaaS",
+      "https://dbx.darwinbox.in/ms/candidatev2/main/careers/allJobs",
+      "Generic Landing",
+      "Overview page; direct candidate job listings portal is https://dbx.darwinbox.in/ms/candidatev2/main/careers/allJobs."
+    ],
+    [
+      "Capgemini",
+      "IT Consulting",
+      "https://www.capgemini.com/careers/join-us/",
+      "Generic Landing",
+      "Minimal redirect landing; direct global job search portal is https://www.capgemini.com/careers/join-us/."
+    ],
+    [
+      "Infosys",
+      "IT Services",
+      "https://career.infosys.com/joblist",
+      "Working & Direct",
+      "Automatically redirects to active job listings page (career.infosys.com/joblist)."
+    ],
+    [
+      "Goldman Sachs",
+      "Banking/Fintech",
+      "https://higher.gs.com/results?&page=1&sort=RELEVANCE",
+      "Generic Landing",
+      "Overview page; direct job listings portal is hosted on https://higher.gs.com/results."
+    ],
+    [
+      "Deloitte Digital",
+      "Consulting/Tech",
+      "https://usijobs.deloitte.com/",
+      "Generic Landing",
+      "Overview marketing page; direct job search portal for Deloitte USI / India tech hiring is https://usijobs.deloitte.com/ (or https://jobsindia.deloitte.com/)."
+    ],
+    [
+      "FIS Global",
+      "Fintech",
+      "https://fis.wd5.myworkdayjobs.com/SearchJobs",
+      "Generic Landing",
+      "Overview page; direct open positions portal is hosted on Workday ATS (https://fis.wd5.myworkdayjobs.com/SearchJobs)."
+    ],
+    [
+      "Accenture",
+      "IT Consulting",
+      "https://www.accenture.com/in-en/careers/jobsearch",
+      "Generic Landing",
+      "Overview page; direct job search portal is https://www.accenture.com/in-en/careers/jobsearch (Workday: https://accenture.wd103.myworkdayjobs.com/AccentureCareers)."
+    ],
+    [
+      "Cognizant",
+      "IT Services",
+      "https://careers.cognizant.com/global-en/jobs/",
+      "Generic Landing",
+      "Overview page; direct job search portal is https://careers.cognizant.com/global-en/jobs/."
+    ],
+    [
+      "Postman",
+      "API Platform/SaaS",
+      "https://www.postman.com/company/careers/open-positions/",
+      "Generic Landing",
+      "Overview page; direct open positions board is https://www.postman.com/company/careers/open-positions/."
+    ],
+    [
+      "Highradius",
+      "Fintech/SaaS",
+      "https://www.highradius.com/about/career/",
+      "Broken",
+      "Sheet URL redirects back to root homepage www.highradius.com/. Direct active career portal is https://www.highradius.com/about/career/."
+    ],
+    [
+      "Groww",
+      "Fintech/Wealth",
+      "https://job-boards.eu.greenhouse.io/groww",
+      "Generic Landing",
+      "Overview page; direct ATS job board is hosted on Greenhouse at https://job-boards.eu.greenhouse.io/groww."
+    ],
+    [
+      "Zoho",
+      "SaaS",
+      "https://careers.zohocorp.com/jobs/Careers",
+      "Generic Landing",
+      "Overview page; direct candidate portal is https://careers.zohocorp.com/jobs/Careers."
+    ],
+    [
+      "Adobe",
+      "Creative/Enterprise SaaS",
+      "https://careers.adobe.com/us/en/search-results",
+      "Generic Landing",
+      "Corporate marketing page; direct Phenom People job search engine is https://careers.adobe.com/us/en/search-results."
+    ],
+    [
+      "Meesho",
+      "E-Commerce",
+      "https://www.meesho.io/jobs",
+      "Working & Direct",
+      "Direct job search and listings portal across teams and departments."
+    ],
+    [
+      "Target India",
+      "Retail Tech",
+      "https://indiajobs.target.com/search-jobs?k=&fl=1269750",
+      "Generic Landing",
+      "Overview page; direct open positions portal for India is https://indiajobs.target.com/search-jobs?k=&fl=1269750."
+    ],
+    [
+      "Rebel Foods",
+      "FoodTech",
+      "https://in.linkedin.com/company/rebel-foods/jobs/",
+      "Generic Landing",
+      "Static marketing page with only email address. Active job listings are published on LinkedIn."
+    ],
+    [
+      "LinkedIn India",
+      "Professional Network/Big Tech",
+      "https://www.linkedin.com/company/linkedin/jobs/",
+      "Generic Landing",
+      "Overview page; direct job search engine is hosted on LinkedIn Jobs."
+    ],
+    [
+      "Oracle India",
+      "Cloud/Enterprise",
+      "https://careers.oracle.com/en/sites/jobsearch",
+      "Working & Direct",
+      "Automatically redirects to Oracle Cloud HCM direct job search portal."
+    ],
+    [
+      "CRED",
+      "Fintech",
+      "https://careers.cred.club/openings",
+      "Generic Landing",
+      "Overview page; direct open positions board is https://careers.cred.club/openings."
+    ],
+    [
+      "Visa",
+      "Fintech/Payments",
+      "https://visa.wd5.myworkdayjobs.com/Visa",
+      "Generic Landing",
+      "Marketing page; direct open jobs portal is hosted on Workday ATS at https://visa.wd5.myworkdayjobs.com/Visa."
+    ],
+    [
+      "Zepto",
+      "Quick Commerce",
+      "https://in.linkedin.com/company/zeptonow/jobs/",
+      "Broken",
+      "Redirects to zepto.talentrecruit.com which fails with DNS NXDOMAIN (broken domain). Active openings are on LinkedIn Jobs."
+    ],
+    [
+      "Dream11",
+      "Gaming/Consumer Tech",
+      "https://www.dreamsports.group/careers",
+      "Generic Landing",
+      "Life/culture page; actual careers portal is https://www.dreamsports.group/careers and LinkedIn."
+    ],
+    [
+      "Cisco India",
+      "Networking/Enterprise",
+      "https://careers.cisco.com/global/en/search-results",
+      "Working & Direct",
+      "Automatically redirects to active job search portal."
+    ],
+    [
+      "Delhivery",
+      "Logistics/Supply Chain",
+      "https://delhivery.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct job board is hosted on Darwinbox at https://delhivery.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "Porter",
+      "Logistics",
+      "https://porter.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct job board is hosted on Darwinbox at https://porter.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "Swiggy",
+      "Food & Quick Commerce",
+      "https://careers.swiggy.com/#/careers",
+      "Working & Direct",
+      "Direct job search portal with category and department search."
+    ],
+    [
+      "MPL",
+      "Gaming",
+      "https://www.linkedin.com/company/mobile-premier-league-mpl/jobs/",
+      "Generic Landing",
+      "Sheet URL points to gaming app homepage (mpl.live/careers is 404). Active hiring is posted on LinkedIn."
+    ],
+    [
+      "SAP Labs India",
+      "Enterprise SaaS",
+      "https://jobs.sap.com/search/?q=&locationsearch=India",
+      "Working & Direct",
+      "Direct global job search portal."
+    ],
+    [
+      "BigBasket",
+      "E-Commerce",
+      "https://bigbasket.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct ATS job board is hosted on Darwinbox at https://bigbasket.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "Licious",
+      "D2C/E-Commerce",
+      "https://www.licious.in/careers/jobs",
+      "Generic Landing",
+      "Overview page; direct open positions portal is https://www.licious.in/careers/jobs."
+    ],
+    [
+      "Lenskart",
+      "D2C/E-Commerce",
+      "https://www.lenskart.com/careers-at-lenskart",
+      "Working & Direct",
+      "Automatically redirects to /careers-at-lenskart which embeds active job board with 75+ listings."
+    ],
+    [
+      "PharmEasy",
+      "HealthTech/E-Commerce",
+      "https://myhr.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct candidate ATS portal is hosted on Darwinbox at https://myhr.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "Walmart Global Tech",
+      "Retail Tech",
+      "https://careers.walmart.com/content/careers/us/en/results?searchQuery=All&careerareas=Technology",
+      "Generic Landing",
+      "Defaults to US retail store hiring. Direct tech roles are hosted on Walmart Workday / Tech careers."
+    ],
+    [
+      "Microsoft India",
+      "Big Tech",
+      "https://jobs.careers.microsoft.com/global/en/search?lc=India",
+      "Generic Landing",
+      "Overview portal; direct global search engine with India filter is https://jobs.careers.microsoft.com/global/en/search?lc=India."
+    ],
+    [
+      "Yulu",
+      "Mobility",
+      "https://careers.yulu.bike/",
+      "Broken",
+      "Existing URL /careers/ redirects to root homepage www.yulu.bike/. Direct active career portal is https://careers.yulu.bike/."
+    ],
+    [
+      "Vedantu",
+      "EdTech",
+      "https://in.linkedin.com/company/vedantu/jobs/",
+      "Generic Landing",
+      "Points to tutor onboarding form. Corporate / tech hiring is conducted via LinkedIn Jobs."
+    ],
+    [
+      "Blinkit",
+      "Quick Commerce",
+      "https://www.linkedin.com/company/blinkitapp/jobs/",
+      "Generic Landing",
+      "Redirects to Eternal Ltd. parent careers (which requires referrals). Active direct openings are posted on LinkedIn."
+    ],
+    [
+      "Rapido",
+      "Mobility",
+      "https://rapido.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct job listings portal is hosted on Darwinbox at https://rapido.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "BharatPe",
+      "Fintech",
+      "https://bharatpe.darwinbox.in/ms/candidatev2/main/careers/allJobs",
+      "Generic Landing",
+      "Plural /careers serves root homepage. Direct ATS job portal is https://bharatpe.darwinbox.in/ms/candidatev2/main/careers/allJobs."
+    ],
+    [
+      "Intuit India",
+      "Fintech/SaaS",
+      "https://jobs.intuit.com/",
+      "Generic Landing",
+      "Overview page; direct job search portal is https://jobs.intuit.com/."
+    ],
+    [
+      "Google India",
+      "Big Tech",
+      "https://www.google.com/about/careers/applications/jobs/results?location=India",
+      "Working & Direct",
+      "Direct global job search application engine with India filter."
+    ],
+    [
+      "Mastercard",
+      "Payments/Fintech",
+      "https://careers.mastercard.com/us/en/search-results",
+      "Generic Landing",
+      "Overview page; direct job search portal is /search-results (Workday: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers)."
+    ],
+    [
+      "Country Delight",
+      "D2C/Consumer",
+      "https://in.linkedin.com/company/country-delight/jobs/",
+      "Broken",
+      "Returns 404 error page (\"The page you were looking for does not exist\"). Active roles are posted on LinkedIn / Instahyre."
+    ],
+    [
+      "BYJU'S",
+      "EdTech",
+      "https://byjus.com/careers-at-byjus/",
+      "Generic Landing",
+      "Redirects to /careers-at-byjus/ (lists academic/sales roles only)."
+    ],
+    [
+      "upGrad",
+      "EdTech",
+      "https://upgrad.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct ATS job board is hosted on Darwinbox at https://upgrad.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "Paytm",
+      "Fintech",
+      "https://jobs.lever.co/paytm",
+      "Generic Landing",
+      "Overview page; direct open positions ATS portal is hosted on Lever at https://jobs.lever.co/paytm."
+    ],
+    [
+      "Uber India",
+      "Mobility",
+      "https://jobs.uber.com/en/",
+      "Working & Direct",
+      "Automatically redirects to active job search portal."
+    ],
+    [
+      "Myntra",
+      "Fashion E-Commerce",
+      "https://jobs.myntra.com/home",
+      "Generic Landing",
+      "Life/culture page; direct job search portal is https://jobs.myntra.com/home."
+    ],
+    [
+      "Flipkart",
+      "E-Commerce",
+      "https://flipkart.turbohire.co/careerpage/4d757ba0-3d57-448a-b82c-238ed87ac90f",
+      "Working & Direct",
+      "Direct job search portal; primary ATS transitioned to TurboHire."
+    ],
+    [
+      "Dailyhunt",
+      "Media/Consumer Tech",
+      "https://jobs.careerswith-us.com/verse",
+      "Generic Landing",
+      "Sheet has corporate homepage; direct job search portal is https://jobs.careerswith-us.com/verse."
+    ],
+    [
+      "ShareChat",
+      "Social/Media",
+      "https://in.linkedin.com/company/sharechat/jobs/",
+      "Generic Landing",
+      "Overview page without active job cards; hiring is conducted via LinkedIn Jobs."
+    ],
+    [
+      "Cult.fit",
+      "Fitness/HealthTech",
+      "https://careers.cult.fit/cult/jobslist",
+      "Working & Direct",
+      "Automatically redirects to active portal embedding 128 open jobs."
+    ],
+    [
+      "Zomato",
+      "Food Delivery/Quick Commerce",
+      "https://www.linkedin.com/company/zomato/jobs/",
+      "Generic Landing",
+      "Redirects to Eternal Ltd.; direct external applications are primarily routed through LinkedIn."
+    ],
+    [
+      "Ola",
+      "Mobility/EV",
+      "https://olacareers.turbohire.co/careerpage/e0c1eb37-eb7a-4ca4-bcc5-d59ce4ce9212",
+      "Generic Landing",
+      "Overview page; direct candidate ATS portal is hosted on TurboHire."
+    ],
+    [
+      "Unacademy",
+      "EdTech",
+      "https://unacademy.darwinbox.in/ms/candidate/careers",
+      "Generic Landing",
+      "Overview page; direct ATS job portal is hosted on Darwinbox at https://unacademy.darwinbox.in/ms/candidate/careers."
+    ],
+    [
+      "JPMC",
+      "Banking/Fintech",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/search",
+      "Working & Direct",
+      "Has search widget on landing; direct Oracle Cloud ATS portal is CX_1001/search."
+    ],
+    [
+      "Citi Bank",
+      "Banking/Fintech",
+      "https://jobs.citi.com/",
+      "Working & Direct",
+      "Direct job search portal."
+    ],
+    [
+      "Barclays",
+      "Banking/Fintech",
+      "https://search.jobs.barclays/",
+      "Generic Landing",
+      "Overview portal; direct job search engine is https://search.jobs.barclays/ (India: /barclays-india)."
+    ],
+    [
+      "Exactly",
+      "Fintech",
+      "https://exactly.com/",
+      "Generic Landing",
+      "Corporate marketing homepage for UK payment provider; no public job board."
+    ],
+    [
+      "Coforge",
+      "IT Services",
+      "https://careers.coforge.com/coforge/",
+      "Working & Direct",
+      "Automatically redirects to active job search portal."
+    ],
+    [
+      "MoEngage",
+      "Customer Engagement SaaS",
+      "https://moengage.hire.trakstar.com/",
+      "Generic Landing",
+      "Overview page; direct ATS job board is hosted on Trakstar at https://moengage.hire.trakstar.com/."
+    ],
+    [
+      "Meta",
+      "Big Tech / Social Media",
+      "https://www.metacareers.com/jobs/",
+      "Working & Direct",
+      "Direct job search widget on homepage; direct listings page is /jobs/."
+    ],
+    [
+      "Apple",
+      "Big Tech / Consumer Tech",
+      "https://jobs.apple.com/en-in/search",
+      "Generic Landing",
+      "Redirects to regional overview; direct search engine for India is https://jobs.apple.com/en-in/search."
+    ],
+    [
+      "NVIDIA",
+      "AI & Semiconductor Tech",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+      "Generic Landing",
+      "Overview page; direct job search portal is hosted on Workday ATS."
+    ],
+    [
+      "Databricks",
+      "Data & AI Platform",
+      "https://www.databricks.com/company/careers/open-positions",
+      "Generic Landing",
+      "Overview page; direct open positions portal is https://www.databricks.com/company/careers/open-positions."
+    ],
+    [
+      "Snowflake",
+      "Cloud Data SaaS",
+      "https://careers.snowflake.com/us/en/search-results",
+      "Generic Landing",
+      "Overview page; direct job search engine is https://careers.snowflake.com/us/en/search-results."
+    ],
+    [
+      "Stripe",
+      "Fintech / Payments",
+      "https://stripe.com/jobs/search",
+      "Generic Landing",
+      "Overview page; direct open roles search portal is https://stripe.com/jobs/search."
+    ],
+    [
+      "Rubrik",
+      "Cloud Data Management / Security",
+      "https://www.rubrik.com/company/careers#positions",
+      "Working & Direct",
+      "Embeds open positions board directly at #positions."
+    ],
+    [
+      "Palo Alto Networks",
+      "Cybersecurity",
+      "https://jobs.paloaltonetworks.com/en/search-jobs",
+      "Working & Direct",
+      "Direct job search portal with filters."
+    ],
+    [
+      "Arcesium",
+      "Fintech / Post-Trade Tech",
+      "https://www.arcesium.com/careers#open-positions",
+      "Working & Direct",
+      "Embeds active open positions board (49 active roles) at #open-positions."
+    ],
+    [
+      "D. E. Shaw",
+      "Fintech / Quantitative Tech",
+      "https://www.deshaw.com/careers/choose-your-path",
+      "Working & Direct",
+      "Direct interactive career finder with 74+ active roles."
+    ],
+    [
+      "Tower Research Capital",
+      "Quantitative Trading / Tech",
+      "https://tower-research.com/open-positions/",
+      "Working & Direct",
+      "Directly embeds Greenhouse job board with 91 open positions."
+    ],
+    [
+      "Morgan Stanley",
+      "Banking / Fintech",
+      "https://www.morganstanley.com/careers/career-opportunities-search",
+      "Generic Landing",
+      "Redirects to /people; direct job opportunities search page is /careers/career-opportunities-search."
+    ],
+    [
+      "BNY Mellon",
+      "Banking / Fintech",
+      "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/jobs?mode=location",
+      "Generic Landing",
+      "Overview page; direct ATS job search portal is hosted on Oracle Cloud HCM."
+    ],
+    [
+      "Twilio",
+      "Cloud Communications / SaaS",
+      "https://jobs.twilio.com/careers",
+      "Working & Direct",
+      "Automatically redirects to active Eightfold ATS portal with 136 open positions."
+    ],
+    [
+      "Okta",
+      "Identity & Cloud Security",
+      "https://www.okta.com/company/careers/job-listing/",
+      "Generic Landing",
+      "Overview page; direct job listings page is /company/careers/job-listing/."
+    ],
+    [
+      "Zscaler",
+      "Cloud Security / SaaS",
+      "https://www.zscaler.com/careers/search",
+      "Generic Landing",
+      "Overview page; direct job search portal is https://www.zscaler.com/careers/search."
+    ],
+    [
+      "Cloudflare",
+      "Cloud & Internet Infrastructure",
+      "https://www.cloudflare.com/careers/jobs/",
+      "Generic Landing",
+      "Overview page; direct open positions portal is https://www.cloudflare.com/careers/jobs/ (Greenhouse)."
+    ],
+    [
+      "MongoDB",
+      "Database / Cloud SaaS",
+      "https://www.mongodb.com/company/careers/see-jobs",
+      "Generic Landing",
+      "Overview page; direct open jobs listings page is https://www.mongodb.com/company/careers/see-jobs."
+    ],
+    [
+      "InMobi",
+      "AdTech / Consumer Tech",
+      "https://www.inmobi.com/company/careers#jobs",
+      "Working & Direct",
+      "Embeds searchable job listings board directly at #jobs."
+    ],
+    [
+      "Rippling",
+      "HR Tech / Enterprise SaaS",
+      "https://www.rippling.com/careers/open-roles",
+      "Generic Landing",
+      "Overview page; direct open roles portal is https://www.rippling.com/careers/open-roles."
+    ],
+    [
+      "Glean",
+      "Enterprise AI / Search",
+      "https://job-boards.greenhouse.io/gleanwork",
+      "Working & Direct",
+      "Embeds Greenhouse job board directly at #open-positions."
+    ],
+    [
+      "Harness",
+      "DevOps / CI/CD",
+      "https://www.harness.io/company/jobs",
+      "Generic Landing",
+      "Overview page; direct open positions portal is https://www.harness.io/company/jobs."
+    ],
+    [
+      "Confluent",
+      "Real-Time Data / Cloud SaaS",
+      "https://careers.confluent.io/jobs",
+      "Generic Landing",
+      "Overview page; direct open positions portal is https://careers.confluent.io/jobs."
+    ],
+    [
+      "Elastic",
+      "Search & Data Analytics",
+      "https://jobs.elastic.co/",
+      "Generic Landing",
+      "Overview page; direct open jobs portal is https://jobs.elastic.co/."
+    ],
+    [
+      "Netskope",
+      "Cloud Security / SASE",
+      "https://www.netskope.com/company/careers/open-positions/",
+      "Generic Landing",
+      "Overview page; direct open positions portal is /company/careers/open-positions/."
+    ],
+    [
+      "Cohesity",
+      "Data Management / Security",
+      "https://www.cohesity.com/careers/open-positions/",
+      "Generic Landing",
+      "Overview page; direct open positions portal is /careers/open-positions/."
+    ],
+    [
+      "Nutanix",
+      "Cloud Infrastructure / SaaS",
+      "https://careers.nutanix.com/en/jobs/",
+      "Working & Direct",
+      "Automatically redirects to active career portal with direct /jobs/ search."
+    ],
+    [
+      "Pure Storage",
+      "Enterprise Data Storage",
+      "https://www.everpuredata.com/company/careers/opportunities.html",
+      "Generic Landing",
+      "Overview page; direct job opportunities search is /company/careers/opportunities.html."
+    ],
+    [
+      "Arista Networks",
+      "Cloud Networking",
+      "https://www.arista.com/en/careers",
+      "Broken",
+      "Missing link ([link removed] in sheet). Direct career portal is https://www.arista.com/en/careers (India: /careers/india)."
+    ],
+    [
+      "Mindtickle",
+      "Sales Tech / SaaS",
+      "https://jobs.lever.co/mindtickle",
+      "Working & Direct",
+      "Automatically redirects to active Lever ATS job board."
+    ],
+    [
+      "BrowserStack",
+      "Dev Tools / Testing SaaS",
+      "https://browserstack.wd3.myworkdayjobs.com/External",
+      "Generic Landing",
+      "Overview page; direct open positions portal is hosted on Workday ATS at https://browserstack.wd3.myworkdayjobs.com/External."
+    ],
+    [
+      "CleverTap",
+      "Customer Engagement / SaaS",
+      "https://clevertap.com/current-openings/",
+      "Generic Landing",
+      "Overview page; direct open roles page is https://clevertap.com/current-openings/."
+    ],
+    [
+      "PubMatic",
+      "AdTech / Digital Advertising",
+      "https://pubmatic.com/careers/job-search/",
+      "Generic Landing",
+      "Overview page; direct job search portal is https://pubmatic.com/careers/job-search/."
+    ],
+    [
+      "Avalara",
+      "Tax Compliance / SaaS",
+      "https://careers.avalara.com/careers-home/jobs",
+      "Broken",
+      "Missing link ([link removed] in sheet). Direct career portal is https://careers.avalara.com/careers-home/jobs."
+    ],
+    [
+      "Sprinklr",
+      "Customer Experience SaaS",
+      "https://sprinklr.wd1.myworkdayjobs.com/careers",
+      "Generic Landing",
+      "Overview page; direct open jobs ATS portal is hosted on Workday (https://sprinklr.wd1.myworkdayjobs.com/careers)."
+    ],
+    [
+      "Trellix",
+      "Cybersecurity",
+      "https://careers.trellix.com/jobs",
+      "Broken",
+      "Missing link ([link removed] in sheet). Direct career portal is https://careers.trellix.com/jobs."
+    ],
+    [
+      "Akamai",
+      "Cloud & CDN / Cybersecurity",
+      "https://jobs.akamai.com/en/sites/CX_1",
+      "Generic Landing",
+      "Overview page; direct job search portal is hosted on Oracle Cloud HCM (https://jobs.akamai.com/en/sites/CX_1)."
+    ],
+    [
+      "Sarvam AI",
+      "Generative AI",
+      "https://www.sarvam.ai/careers",
+      "Working & Direct",
+      "Direct job listings portal with 61 active roles and application links."
+    ],
+    [
+      "GetCrux",
+      "AI & Data Analytics",
+      "https://www.workatastartup.com/companies/getcrux",
+      "Generic Landing",
+      "Sheet points to product marketing homepage; active hiring is conducted via YC Work at a Startup and Wellfound (wellfound.com/company/crux-11/jobs)."
+    ],
+    [
+      "Observe.AI",
+      "Conversational AI / Contact Center",
+      "https://boards.greenhouse.io/observeai",
+      "Working & Direct",
+      "Embeds Greenhouse job board directly on page; direct Greenhouse URL is https://boards.greenhouse.io/observeai."
+    ],
+    [
+      "Sprinto",
+      "Security & Compliance SaaS",
+      "https://jobs.lever.co/Sprinto",
+      "Broken",
+      "Missing link ([link removed] in sheet). Working ATS portal is hosted on Lever (https://jobs.lever.co/Sprinto)."
+    ],
+    [
+      "CoverSelf",
+      "Healthcare FinTech / SaaS",
+      "https://coverself.kekahire.com/",
+      "Broken",
+      "Missing link ([link removed] in sheet). Working ATS portal is hosted on Keka Hire (https://coverself.kekahire.com/)."
+    ],
+    [
+      "Leena AI",
+      "HR Tech / AI",
+      "https://leena.ai/careers?tab=explore-jobs",
+      "Broken",
+      "Missing link ([link removed] in sheet). Working direct open roles page is https://leena.ai/careers?tab=explore-jobs."
+    ],
+    [
+      "Yellow.ai",
+      "Conversational AI / CX",
+      "https://careers.yellow.ai/jobs/Careers",
+      "Broken",
+      "Missing link ([link removed] in sheet). Working candidate ATS portal is hosted on Zoho Recruit (https://careers.yellow.ai/jobs/Careers)."
+    ],
+    [
+      "Uniphore",
+      "Conversational AI / SaaS",
+      "https://uniphore.wd503.myworkdayjobs.com/Uniphore",
+      "Generic Landing",
+      "Overview page; direct open positions portal is hosted on Workday ATS (https://uniphore.wd503.myworkdayjobs.com/Uniphore)."
+    ],
+    [
+      "Moglix",
+      "B2B E-Commerce / Supply Chain",
+      "https://moglix.flexiele.com/careers/moglix/jobs",
+      "Broken",
+      "Missing link ([link removed] in sheet). Working ATS job portal is https://moglix.flexiele.com/careers/moglix/jobs."
+    ],
+    [
+      "Jupiter",
+      "Fintech / Neobanking",
+      "https://jupiter.keka.com/careers",
+      "Working & Direct",
+      "Directly embeds Keka ATS job board with active openings (https://jupiter.keka.com/careers)."
+    ],
+    [
+      "Slice",
+      "Fintech / Consumer Credit",
+      "https://slice.bank.in/careers/open-positions",
+      "Generic Landing",
+      "Redirects to slice.bank.in/careers; direct open positions page is https://slice.bank.in/careers/open-positions."
+    ],
+    [
+      "Pine Labs",
+      "Fintech / Merchant Commerce",
+      "https://www.pinelabs.com/careers/open-jobs",
+      "Generic Landing",
+      "Overview page; direct job openings listings page is https://www.pinelabs.com/careers/open-jobs."
+    ],
+    [
+      "Cashfree",
+      "Fintech / Payments",
+      "https://in.linkedin.com/company/cashfree/jobs/",
+      "Generic Landing",
+      "Overview page with email link; active open roles are posted on LinkedIn Jobs."
+    ],
+    [
+      "Open",
+      "Fintech / Neobanking",
+      "https://openfinancial.keka.com/careers/",
+      "Broken",
+      "Missing link ([link removed] in sheet). Working ATS job board is hosted on Keka Hire (https://openfinancial.keka.com/careers/)."
+    ],
+    [
+      "Zerodha",
+      "Fintech / Stockbroking",
+      "https://careers.zerodha.com/",
+      "Working & Direct",
+      "Automatically redirects to official careers portal with active roles and resume intake."
+    ]
+  ]
+}

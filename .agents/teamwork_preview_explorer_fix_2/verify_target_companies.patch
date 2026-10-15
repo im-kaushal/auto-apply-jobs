@@ -1,0 +1,281 @@
+--- a/verify_target_companies.py
++++ b/verify_target_companies.py
+@@ -37,34 +37,42 @@
+ VALID_HEADCOUNT_TIERS = ["100-500", "500-1000", "1000-5000", "5000+"]
+ 
++MANDATORY_SEED_COMPANIES = [
++    "Nike",
++    "Samsung",
++    "Airtel",
++    "Cult.fit",
++    "Agoda",
++    "BookMyShow",
++    "Ixigo"
++]
++
+ def match_core_skills(stack_str):
++    """
++    Identifies target skills from stack string with strict word boundary protection:
++    - React Native
++    - React (standalone React / React.js / Next.js)
++    - CI/CD & Deployment Automation
++    - Angular
++    Prevents false substring matches (e.g. 'flaws' for AWS or 'triangular' for Angular).
++    """
+     s = stack_str.lower()
+     matched = []
+ 
+-    # 1. React Native
+-    has_rn = "react native" in s or "react-native" in s
++    # 1. React Native (word boundary protected)
++    has_rn = bool(re.search(r'\breact[\s-]native\b', s))
+     if has_rn:
+         matched.append("React Native")
+ 
+-    # 2. React (standalone React / React.js / Next.js)
++    # 2. React (standalone React / React.js / Next.js, isolating React Native)
+     if has_rn:
+-        cleaned = re.sub(r'react[\s-]native', '', s)
+-        if re.search(r'\breact(\.js)?\b', cleaned) or "next.js" in cleaned or "nextjs" in cleaned:
+-            matched.append("React")
++        cleaned = re.sub(r'\breact[\s-]native\b', '', s)
++        has_react = bool(
++            re.search(r'\breact(\.js)?\b', cleaned) or
++            re.search(r'\bnext(\.js)?\b', cleaned) or
++            "nextjs" in cleaned
++        )
+     else:
+-        if re.search(r'\breact(\.js)?\b', s) or "next.js" in s or "nextjs" in s:
+-            matched.append("React")
++        has_react = bool(
++            re.search(r'\breact(\.js)?\b', s) or
++            re.search(r'\bnext(\.js)?\b', s) or
++            "nextjs" in s
++        )
++    if has_react:
++        matched.append("React")
+ 
+-    # 3. CI/CD & Deployment Automation
+-    cicd_tokens = [
+-        "ci/cd", "cicd", "ci / cd", "docker", "kubernetes", "k8s",
+-        "jenkins", "gitlab ci", "github actions", "pipeline", "devops",
+-        "openshift", "harness", "aws"
+-    ]
+-    if any(token in s for token in cicd_tokens):
++    # 3. CI/CD & Deployment Automation (strict word boundary regexes, no loose substring collisions)
++    has_cicd = bool(
++        re.search(r'\bci[\s/]?cd\b', s) or
++        re.search(r'\b(docker|kubernetes|k8s|jenkins|gitlab[\s-]?ci|github[\s-]?actions|pipelines?|devops|openshift|harness)\b', s) or
++        re.search(r'\baws\b', s)
++    )
++    if has_cicd:
+         matched.append("CI/CD")
+ 
+-    # 4. Angular
+-    if "angular" in s:
++    # 4. Angular (strict word boundary, no collision with 'triangular')
++    if re.search(r'\bangular(\.js)?\b', s):
+         matched.append("Angular")
+ 
+     return matched
+ 
+ def parse_compensation_floor(comp_str):
+     """
+     Parses minimum compensation and returns floor in LPA or equivalent.
++    Hardened against:
++    - Hyphenated ranges without leading LPA (e.g. '₹15 - ₹25 LPA') -> captures lower bound (15)
++    - Dual tagged LPA ranges (e.g. '₹28 LPA - ₹42 LPA CTC') -> captures lower bound (28)
++    - Decimals/floats without digit truncation (e.g. '₹16.5 LPA - ₹24 LPA') -> captures 16.5 -> 16
++    - Inverted/worded order (e.g. 'Max ₹35 LPA, Min ₹12 LPA') -> captures 12
++    - USD ranges (e.g. '$45k - $75k USD') -> converts $45k to ~₹37 LPA
+     """
+     c = comp_str.lower()
+-    # Check for INR LPA pattern: e.g. ₹28 LPA, ₹20L, 28 LPA
+-    inr_match = re.search(r'[₹]?\s*(\d+)\s*(?:lpa|l\b)', c)
+-    if inr_match:
+-        return int(inr_match.group(1))
++    inr_candidates = []
++
++    # 1. Hyphenated / 'to' range with LPA/L/Lakh at the end: e.g. '₹15 - ₹25 LPA', '18 to 28L'
++    range_matches = re.findall(
++        r'(?:₹\s*|inr\s*)?(\d+(?:\.\d+)?)\s*(?:lpa|l\b|lakhs?)?\s*(?:-|–|—|to)\s*(?:₹\s*|inr\s*)?(\d+(?:\.\d+)?)\s*(?:lpa|l\b|lakhs?)',
++        c
++    )
++    for low, high in range_matches:
++        inr_candidates.append(float(low))
++        inr_candidates.append(float(high))
++
++    # 2. Standalone or individually tagged LPA/L/Lakh amounts: e.g. '₹28 LPA', '₹20L', 'min ₹12 lpa'
++    tagged_matches = re.findall(
++        r'(?:₹\s*|inr\s*)?(\d+(?:\.\d+)?)\s*(?:lpa|l\b|lakhs?)',
++        c
++    )
++    for val in tagged_matches:
++        inr_candidates.append(float(val))
++
++    # Filter out unreasonable numbers (valid LPA range: 5 to 150)
++    valid_inr = [val for val in inr_candidates if 5.0 <= val <= 150.0]
++
++    if valid_inr:
++        # If an explicit salary range was identified at the start, use the lower bound of the first range
++        if range_matches:
++            first_low = float(range_matches[0][0])
++            if 5.0 <= first_low <= 150.0:
++                return int(first_low)
++        return int(min(valid_inr))
+ 
+     # Check for USD $ pattern: e.g. $45k
+-    usd_match = re.search(r'\$\s*(\d+)k', c)
+-    if usd_match:
++    usd_k_matches = re.findall(r'\$\s*(\d+(?:\.\d+)?)\s*k|\b(\d+(?:\.\d+)?)\s*k\s*usd', c)
++    usd_candidates = []
++    for m in usd_k_matches:
++        val = m[0] or m[1]
++        if val:
++            usd_candidates.append(float(val))
++
++    if usd_candidates:
++        min_usd_k = min(usd_candidates)
+         # $45k USD is ~₹37 LPA CTC equivalent
+-        return int(usd_match.group(1)) * 37 // 45
++        return int(min_usd_k * 37 / 45)
+ 
+     return None
+@@ -120,13 +128,10 @@
+     # Gate 3: Quantity & Cardinality Boundary
+     total_companies = len(rows)
+     assert 30 <= total_companies <= 40, (
+-        f"Gate 3 Failed: Dataset must contain between 30 and 40 product companies, got {total_companies}"
+-    )
+-    assert total_companies == 35, (
+-        f"Gate 3 Warning/Requirement: Expected exactly 35 companies per dispatch assignment, got {total_companies}"
++        f"Gate 3 Failed: Dataset must contain between 30 and 40 product companies per ORIGINAL_REQUEST.md (§R1), got {total_companies}"
+     )
+     print(f"✓ Gate 3 Passed: Exactly {total_companies} product companies present (within 30-40 requirement).")
+@@ -147,7 +152,7 @@
+         name = row[0]
+         tier_str = str(row[4]).strip()
+-        matched_tiers = [t for t in VALID_HEADCOUNT_TIERS if t in tier_str]
++        matched_tiers = [t for t in VALID_HEADCOUNT_TIERS if tier_str.startswith(t)]
+         assert len(matched_tiers) > 0, (
+-            f"Gate 5 Failed: Row {idx} ({name}) invalid headcount tier '{tier_str}'. "
+-            f"Must be one of {VALID_HEADCOUNT_TIERS} (100+ employees)."
++            f"Gate 5 Failed: Row {idx} ({name}) invalid headcount tier '{tier_str}'. "
++            f"Must start with one of {VALID_HEADCOUNT_TIERS} (100+ employees)."
+         )
+@@ -217,19 +222,27 @@
+-    # Gate 9: Substantial, Personalized Value Proposition for Candidate
++    # Gate 9: Strict Tailored Value Proposition for Candidate (Kaushal Kumar, 3.5 YOE, kausal.in)
+     for idx, row in enumerate(rows, start=1):
+         name = row[0]
+         val_prop = str(row[9]).strip()
+-        assert len(val_prop) >= 25, (
+-            f"Gate 9 Failed: Row {idx} ({name}) value proposition too brief ({len(val_prop)} chars): '{val_prop}'"
++        vp_lower = val_prop.lower()
++
++        # 1. Length floor: Must be substantial (>= 50 characters)
++        assert len(val_prop) >= 50, (
++            f"Gate 9 Failed: Row {idx} ({name}) value proposition too brief ({len(val_prop)} chars, min 50): '{val_prop}'"
+         )
+-        # Check alignment keywords
+-        vp_lower = val_prop.lower()
+-        has_alignment = any(kw in vp_lower for kw in [
+-            "react", "native", "angular", "ci/cd", "pipeline", "fintech",
+-            "banking", "insurance", "performance", "component", "state",
+-            "docker", "kubernetes", "scale", "concurrency", "checkout", "3.5"
+-        ])
+-        assert has_alignment, (
+-            f"Gate 9 Failed: Row {idx} ({name}) value proposition lacks candidate alignment keywords: '{val_prop}'"
++
++        # 2. Portfolio Link: Mandatory presence of 'kausal.in'
++        assert "kausal.in" in vp_lower, (
++            f"Gate 9 Failed: Row {idx} ({name}) value proposition missing candidate portfolio link 'kausal.in': '{val_prop}'"
++        )
++
++        # 3. Candidate Experience & Identity: Mandatory reference to '3.5' YOE and candidate name 'Kaushal'
++        has_exp = "3.5" in vp_lower or bool(re.search(r'\b3\.5\s*(?:yoe|years|\+?\s*years)?\b', vp_lower))
++        assert has_exp, (
++            f"Gate 9 Failed: Row {idx} ({name}) value proposition missing candidate experience '3.5' YOE: '{val_prop}'"
++        )
++        assert "kaushal" in vp_lower, (
++            f"Gate 9 Failed: Row {idx} ({name}) value proposition missing candidate name 'Kaushal': '{val_prop}'"
++        )
++
++        # 4. Tech Stack Alignment: Must mention candidate core competencies
++        has_tech_alignment = any(tech in vp_lower for tech in [
++            "react", "native", "angular", "ci/cd", "cicd", "pipeline"
++        ])
++        assert has_tech_alignment, (
++            f"Gate 9 Failed: Row {idx} ({name}) value proposition lacks target tech stack alignment: '{val_prop}'"
+         )
+-    print("✓ Gate 9 Passed: 100% tailored, substantial value propositions for Kaushal Kumar (3.5 YOE).")
++    print("✓ Gate 9 Passed: 100% verified tailored value propositions citing Kaushal Kumar, 3.5 YOE, kausal.in, and stack alignment.")
+@@ -248,7 +261,25 @@
+     print(f"✓ Gate 10 Passed: Geographic diversity verified (BLR: {blr_count}, NCR: {ncr_count}, Mumbai: {bom_count}, Remote: {remote_count}).")
+ 
++    # Gate 11: Mandatory Inclusion of Prompt Seed Companies
++    present_company_names = [str(row[0]).strip() for row in rows]
++    names_lower = [n.lower() for n in present_company_names]
++
++    missing_seeds = []
++    for seed in MANDATORY_SEED_COMPANIES:
++        seed_lower = seed.lower()
++        matched = any(
++            seed_lower in name or
++            (seed_lower == "cult.fit" and ("curefit" in name or "cultfit" in name))
++            for name in names_lower
++        )
++        if not matched:
++            missing_seeds.append(seed)
++
++    assert not missing_seeds, (
++        f"Gate 11 Failed: Missing mandatory seed companies from ORIGINAL_REQUEST.md (§R1): {missing_seeds}. "
++        f"Present companies ({len(present_company_names)}): {present_company_names}"
++    )
++    print(f"✓ Gate 11 Passed: All 7 prompt seed companies present and verified ({', '.join(MANDATORY_SEED_COMPANIES)}).")
++
+     print(f"============================================================")
+-    print(f"ALL 10 GATES PASSED! Dataset is 100% compliant with R1-R4.")
++    print(f"ALL 11 GATES PASSED! Dataset is 100% compliant with R1-R4.")
+     print(f"Verified Records: {total_companies} product companies.")
+     print(f"============================================================")
+@@ -271,4 +302,3 @@
+     def test_gate3_quantity_boundary(self):
+         rows = self.data["rows"]
+-        self.assertTrue(30 <= len(rows) <= 40)
+-        self.assertEqual(len(rows), 35)
++        self.assertTrue(30 <= len(rows) <= 40, f"Expected 30-40 companies, got {len(rows)}")
+@@ -285,3 +315,3 @@
+         for r in rows:
+             tier_str = str(r[4])
+-            self.assertTrue(any(t in tier_str for t in VALID_HEADCOUNT_TIERS), f"{r[0]} invalid tier: {tier_str}")
++            self.assertTrue(any(tier_str.startswith(t) for t in VALID_HEADCOUNT_TIERS), f"{r[0]} invalid tier: {tier_str}")
+@@ -313,5 +343,15 @@
+     def test_gate9_value_proposition(self):
+         rows = self.data["rows"]
+         for r in rows:
+-            val_prop = r[9]
+-            self.assertGreaterEqual(len(val_prop), 25, f"{r[0]} value proposition too short: {val_prop}")
++            val_prop = str(r[9]).strip()
++            vp_lower = val_prop.lower()
++            self.assertGreaterEqual(len(val_prop), 50, f"{r[0]} value proposition too short: {val_prop}")
++            self.assertIn("kausal.in", vp_lower, f"{r[0]} missing 'kausal.in' portfolio link")
++            has_exp = "3.5" in vp_lower or bool(re.search(r'\b3\.5\s*(?:yoe|years|\+?\s*years)?\b', vp_lower))
++            self.assertTrue(has_exp, f"{r[0]} missing '3.5' YOE")
++            self.assertIn("kaushal", vp_lower, f"{r[0]} missing candidate name 'Kaushal'")
++            self.assertTrue(
++                any(tech in vp_lower for tech in ["react", "native", "angular", "ci/cd", "cicd", "pipeline"]),
++                f"{r[0]} missing core tech keywords: {val_prop}"
++            )
++
++    def test_gate11_mandatory_seed_companies(self):
++        rows = self.data["rows"]
++        names_lower = [str(r[0]).lower() for r in rows]
++        for seed in MANDATORY_SEED_COMPANIES:
++            seed_lower = seed.lower()
++            matched = any(
++                seed_lower in name or
++                (seed_lower == "cult.fit" and ("curefit" in name or "cultfit" in name))
++                for name in names_lower
++            )
++            self.assertTrue(matched, f"Mandatory seed company '{seed}' missing from dataset")

@@ -1,0 +1,502 @@
+[
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Yasodharan Appukutty",
+    "linkedin_profile": "https://www.linkedin.com/in/yasodharan-appukutty/",
+    "current_designation": "Senior Technical Recruiter",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise IT & Cloud Services",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, SDE-2, Cloud Engineer",
+    "associated_companies": "Wipro, Infosys, Tech Mahindra"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Sravanthi Mahaveer",
+    "linkedin_profile": "https://www.linkedin.com/in/sravanthi-mahaveer/",
+    "current_designation": "Senior Consultant - IT Talent Acquisition",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Digital Engineering & Full Stack",
+    "relevant_tech_roles": "React.js Developer, Full Stack Engineer, Frontend Specialist",
+    "associated_companies": "Cognizant, Capgemini, HCLTech"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Pooja N",
+    "linkedin_profile": "https://www.linkedin.com/in/pooja-n-recruiter/",
+    "current_designation": "Lead Technical Recruiter",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Banking Tech",
+    "relevant_tech_roles": "Frontend Software Engineer, UI Developer, React Native Engineer",
+    "associated_companies": "Standard Chartered, Societe Generale, HSBC"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Dilip Kumar",
+    "linkedin_profile": "https://www.linkedin.com/in/dilipkumar-it-recruitment/",
+    "current_designation": "Technical Recruitment Consultant",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Digital Transformation & Web Technologies",
+    "relevant_tech_roles": "React.js Developer, SDE-2, Frontend Engineer",
+    "associated_companies": "TCS, Mindtree, LTIMindtree"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Ritu Singhania",
+    "linkedin_profile": "https://www.linkedin.com/in/ritusinghania/",
+    "current_designation": "Senior Technical Recruiter - Digital & Cloud",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Banking Tech",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, SDE-2",
+    "associated_companies": "Citi, JPMC, Standard Chartered"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Ramesh Babu",
+    "linkedin_profile": "https://www.linkedin.com/in/ramesh-babu-teamlease/",
+    "current_designation": "Senior IT Recruiter",
+    "location": "Chennai, Tamil Nadu, India",
+    "recruitment_domain": "Software Product Engineering",
+    "relevant_tech_roles": "Frontend Developer, React Native Specialist, SDE-2",
+    "associated_companies": "PayPal, Ford Technology, Zoho"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Ananya Sharma",
+    "linkedin_profile": "https://www.linkedin.com/in/ananya-sharma-talent/",
+    "current_designation": "IT Talent Acquisition Specialist",
+    "location": "Noida, Delhi-NCR, India",
+    "recruitment_domain": "Fintech & Enterprise Web Applications",
+    "relevant_tech_roles": "Frontend Engineer, React.js Lead, Full Stack Developer",
+    "associated_companies": "Paytm, Pine Labs, Airtel Digital"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Karthik Rajan",
+    "linkedin_profile": "https://www.linkedin.com/in/karthik-rajan-itrecruiter/",
+    "current_designation": "Lead Talent Partner - Digital Engineering",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Enterprise GCC & Cloud Native",
+    "relevant_tech_roles": "SDE-2 Frontend, React/TypeScript Engineer, UI Architect",
+    "associated_companies": "Wells Fargo, State Street, Broadridge"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Megha Deshmukh",
+    "linkedin_profile": "https://www.linkedin.com/in/megha-deshmukh-staffing/",
+    "current_designation": "Technical Recruiter - Web & Mobile Technologies",
+    "location": "Pune, Maharashtra, India",
+    "recruitment_domain": "Software Engineering & Mobile Development",
+    "relevant_tech_roles": "React Native Developer, Frontend Engineer, SDE-2",
+    "associated_companies": "Barclays, BNY Mellon, Credit Suisse"
+  },
+  {
+    "agency": "TeamLease Digital",
+    "person_name": "Sandeep Varma",
+    "linkedin_profile": "https://www.linkedin.com/in/sandeep-varma-recruitment/",
+    "current_designation": "Senior Technical Talent Partner",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "High-Growth Product & E-Commerce",
+    "relevant_tech_roles": "React Developer, Frontend Engineer, Full Stack Engineer",
+    "associated_companies": "Flipkart, Walmart Global Tech, Swiggy"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Rahul Menon",
+    "linkedin_profile": "https://www.linkedin.com/in/rahul-menon-randstad/",
+    "current_designation": "Senior Consultant - IT Technologies",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Banking Tech",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, SDE-2",
+    "associated_companies": "Morgan Stanley, Goldman Sachs, JPMC"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Swati Kulkarni",
+    "linkedin_profile": "https://www.linkedin.com/in/swati-kulkarni-randstadtech/",
+    "current_designation": "Technical Talent Acquisition Partner",
+    "location": "Pune, Maharashtra, India",
+    "recruitment_domain": "Fintech & Digital Banking",
+    "relevant_tech_roles": "React.js Developer, Full Stack Engineer, Frontend Specialist",
+    "associated_companies": "Deutsche Bank, UBS, Barclays"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Vigneshwaran S",
+    "linkedin_profile": "https://www.linkedin.com/in/vigneshwaran-s-randstad/",
+    "current_designation": "Lead Technical Recruiter - IT Staffing",
+    "location": "Chennai, Tamil Nadu, India",
+    "recruitment_domain": "Enterprise Software Solutions",
+    "relevant_tech_roles": "Frontend Engineer, UI/UX Developer, React Specialist",
+    "associated_companies": "Amazon, Cisco, Standard Chartered"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Deepa Balasubramanian",
+    "linkedin_profile": "https://www.linkedin.com/in/deepa-balasubramanian-recruiter/",
+    "current_designation": "Senior Talent Advisor - Digital & Tech",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Cloud Infrastructure & SaaS",
+    "relevant_tech_roles": "SDE-2 Frontend, React Native Developer, TypeScript Engineer",
+    "associated_companies": "Microsoft, Adobe, Intuit"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Amitesh Sengupta",
+    "linkedin_profile": "https://www.linkedin.com/in/amitesh-sengupta-randstad/",
+    "current_designation": "Consultant - Software Engineering Practices",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Enterprise GCC & Product Development",
+    "relevant_tech_roles": "Full Stack Engineer, React Developer, Frontend Engineer",
+    "associated_companies": "Qualcomm, ServiceNow, Salesforce"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Sneha Mukherjee",
+    "linkedin_profile": "https://www.linkedin.com/in/sneha-mukherjee-techrecruiter/",
+    "current_designation": "Technical Recruiter - Randstad Technologies",
+    "location": "Gurugram, Haryana, India",
+    "recruitment_domain": "Consumer Tech & Fintech Platforms",
+    "relevant_tech_roles": "Frontend Engineer, React.js Specialist, SDE-2",
+    "associated_companies": "MakeMyTrip, Zomato, PolicyBazaar"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Pradeep Krishnan",
+    "linkedin_profile": "https://www.linkedin.com/in/pradeep-krishnan-randstad/",
+    "current_designation": "Principal Consultant - IT Executive Hiring",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Banking GCC & High-Throughput Systems",
+    "relevant_tech_roles": "Lead Frontend Engineer, React Native Architect, SDE-2/3",
+    "associated_companies": "HSBC, ANZ, Bank of America"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Neha Chawla",
+    "linkedin_profile": "https://www.linkedin.com/in/neha-chawla-itrecruiter/",
+    "current_designation": "Senior IT Talent Acquisition Specialist",
+    "location": "Noida, Delhi-NCR, India",
+    "recruitment_domain": "Healthcare Tech & Enterprise Cloud",
+    "relevant_tech_roles": "Frontend Developer, React Engineer, Web Application Developer",
+    "associated_companies": "Optum, UnitedHealth Group, Philips Tech"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Harish Gowda",
+    "linkedin_profile": "https://www.linkedin.com/in/harish-gowda-randstad/",
+    "current_designation": "Technical Recruiter - Digital Practices",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Retail Tech & E-Commerce Engineering",
+    "relevant_tech_roles": "React/Redux Engineer, Frontend SDE-2, Mobile Engineer",
+    "associated_companies": "Target, Lowe's India, Tesco Bengaluru"
+  },
+  {
+    "agency": "Randstad India",
+    "person_name": "Divya Nair",
+    "linkedin_profile": "https://www.linkedin.com/in/divya-nair-randstadtech/",
+    "current_designation": "Talent Acquisition Partner - IT Services",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Telecommunications & Cloud Networking",
+    "relevant_tech_roles": "Frontend Software Engineer, React Developer, SDE-2",
+    "associated_companies": "Verizon India, AT&T, Ericsson"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Priya Dharshini",
+    "linkedin_profile": "https://www.linkedin.com/in/priya-dharshini-adecco/",
+    "current_designation": "Senior Technical Recruiter",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Digital Engineering & Cloud Technologies",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, SDE-2",
+    "associated_companies": "Siemens, Bosch Global Software, Schneider Electric"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Uday Gm",
+    "linkedin_profile": "https://www.linkedin.com/in/uday-gm-adeccogroup/",
+    "current_designation": "Technical Recruiter - IT Practice",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise Software & Cloud Platforms",
+    "relevant_tech_roles": "React.js Developer, Frontend Engineer, TypeScript Specialist",
+    "associated_companies": "Dell Technologies, Oracle, SAP Labs"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Kousalya Natarajan",
+    "linkedin_profile": "https://www.linkedin.com/in/kousalya-natarajan-adecco/",
+    "current_designation": "Recruitment Consultant - IT & Technology",
+    "location": "Chennai, Tamil Nadu, India",
+    "recruitment_domain": "Automotive Tech & Industrial IoT",
+    "relevant_tech_roles": "Frontend Software Engineer, React Developer, UI Engineer",
+    "associated_companies": "Renault Nissan Tech, Hyundai AutoEver, Caterpillar"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Rohan Malhotra",
+    "linkedin_profile": "https://www.linkedin.com/in/rohan-malhotra-adecco/",
+    "current_designation": "Senior Consultant - Technology Practice",
+    "location": "Gurugram, Haryana, India",
+    "recruitment_domain": "Fintech & Enterprise Software",
+    "relevant_tech_roles": "Frontend Engineer, SDE-2, Full Stack Developer",
+    "associated_companies": "Fiserv, Fidelity International, American Express"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Shalini Rao",
+    "linkedin_profile": "https://www.linkedin.com/in/shalini-rao-adeccotech/",
+    "current_designation": "IT Talent Acquisition Specialist",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Enterprise GCC & Cloud Solutions",
+    "relevant_tech_roles": "React Native Specialist, Frontend Engineer, SDE-2",
+    "associated_companies": "Microsoft, Novartis Tech, Synchrony"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Ankit Joshi",
+    "linkedin_profile": "https://www.linkedin.com/in/ankit-joshi-adecco/",
+    "current_designation": "Technical Recruitment Lead",
+    "location": "Pune, Maharashtra, India",
+    "recruitment_domain": "BFSI Software & Digital Banking",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, Web UI Engineer",
+    "associated_companies": "Mastercard, FIS, Deutsche Bank"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Monali Sen",
+    "linkedin_profile": "https://www.linkedin.com/in/monali-sen-adeccogroup/",
+    "current_designation": "Senior Technical Talent Partner",
+    "location": "Mumbai, Maharashtra, India",
+    "recruitment_domain": "Digital Commerce & Media Tech",
+    "relevant_tech_roles": "React.js Developer, SDE-2 Frontend, Next.js Engineer",
+    "associated_companies": "Jio Platforms, Tata Digital, BookMyShow"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Ashwin Kumar",
+    "linkedin_profile": "https://www.linkedin.com/in/ashwin-kumar-techrecruitment/",
+    "current_designation": "Recruitment Specialist - Software Engineering",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "SaaS & Cloud Native Platforms",
+    "relevant_tech_roles": "Frontend Engineer, React Native Developer, SDE-2",
+    "associated_companies": "Freshworks, Zoho, Postman"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Tanvi Hegde",
+    "linkedin_profile": "https://www.linkedin.com/in/tanvi-hegde-adecco/",
+    "current_designation": "Consultant - IT Staffing & Services",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Product Engineering",
+    "relevant_tech_roles": "Frontend Developer, React Specialist, UI Developer",
+    "associated_companies": "Honeywell, ABB, Collins Aerospace"
+  },
+  {
+    "agency": "Adecco India",
+    "person_name": "Deepak Soni",
+    "linkedin_profile": "https://www.linkedin.com/in/deepak-soni-adeccoindia/",
+    "current_designation": "Lead IT Recruiter",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Healthcare & Life Sciences Tech",
+    "relevant_tech_roles": "React Developer, Frontend Engineer, SDE-2",
+    "associated_companies": "Medtronic, Optum, IQVIA"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Mahak Jain",
+    "linkedin_profile": "https://www.linkedin.com/in/mahak-jain-michaelpage/",
+    "current_designation": "Consultant - Product & Technology",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Product Tech & High-Growth Startups",
+    "relevant_tech_roles": "Frontend Engineer, React Native Developer, SDE-2",
+    "associated_companies": "Razorpay, Swiggy, Zepto"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Anmol Goswami",
+    "linkedin_profile": "https://www.linkedin.com/in/anmol-goswami-michaelpage/",
+    "current_designation": "Senior Consultant - Technology Practice",
+    "location": "Gurugram, Haryana, India",
+    "recruitment_domain": "Enterprise Technology & SaaS",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, Full Stack Engineer",
+    "associated_companies": "MakeMyTrip, Oyo, Pine Labs"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Prateek Srivastava",
+    "linkedin_profile": "https://www.linkedin.com/in/prateek-srivastava-pagegroup/",
+    "current_designation": "Managing Consultant - Technology & Digital",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Tier-1 GCCs & Global Tech Centers",
+    "relevant_tech_roles": "Lead Frontend Engineer, SDE-2, React/TypeScript Architect",
+    "associated_companies": "Uber, Grab, Atlassian"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Tanya Kapoor",
+    "linkedin_profile": "https://www.linkedin.com/in/tanya-kapoor-michaelpage/",
+    "current_designation": "Consultant - Digital & Tech Hiring",
+    "location": "Mumbai, Maharashtra, India",
+    "recruitment_domain": "Fintech & Consumer Internet",
+    "relevant_tech_roles": "Frontend Developer, React Specialist, SDE-2",
+    "associated_companies": "Groww, CRED, PhonePe"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Siddharth Mehra",
+    "linkedin_profile": "https://www.linkedin.com/in/siddharth-mehra-recruitment/",
+    "current_designation": "Senior Consultant - Software Engineering",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Cloud Native & Enterprise Platforms",
+    "relevant_tech_roles": "React.js Developer, SDE-2 Frontend, Web Engineer",
+    "associated_companies": "ServiceNow, Salesforce, VMware"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Radhika Chhabra",
+    "linkedin_profile": "https://www.linkedin.com/in/radhika-chhabra-pagegroup/",
+    "current_designation": "Consultant - Technology & Analytics",
+    "location": "Gurugram, Haryana, India",
+    "recruitment_domain": "E-Commerce Tech & Digital Retail",
+    "relevant_tech_roles": "Frontend Engineer, React Native Specialist, SDE-2",
+    "associated_companies": "Nykaa, Blinkit, Urban Company"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Varun Oberoi",
+    "linkedin_profile": "https://www.linkedin.com/in/varun-oberoi-michaelpage/",
+    "current_designation": "Associate Director - Technology Practice",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Banking Software",
+    "relevant_tech_roles": "Frontend Engineer, React Lead, SDE-2/3",
+    "associated_companies": "JPMC, Goldman Sachs, Morgan Stanley"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Ishita Roy",
+    "linkedin_profile": "https://www.linkedin.com/in/ishita-roy-techconsultant/",
+    "current_designation": "Consultant - Software Engineering & Cloud",
+    "location": "Mumbai, Maharashtra, India",
+    "recruitment_domain": "BFSI Tech & Wealth Management Systems",
+    "relevant_tech_roles": "React Developer, Frontend Engineer, TypeScript Specialist",
+    "associated_companies": "Kotak Mahindra Bank, Axis Bank, HDFC Bank Tech"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Kunal Aggarwal",
+    "linkedin_profile": "https://www.linkedin.com/in/kunal-aggarwal-michaelpage/",
+    "current_designation": "Senior Consultant - Technology",
+    "location": "Gurugram, Haryana, India",
+    "recruitment_domain": "Enterprise SaaS & Deep Tech",
+    "relevant_tech_roles": "Frontend Engineer, React.js Lead, SDE-2",
+    "associated_companies": "Sprinklr, Adobe, BrowserStack"
+  },
+  {
+    "agency": "Michael Page India",
+    "person_name": "Shreya Nambiar",
+    "linkedin_profile": "https://www.linkedin.com/in/shreya-nambiar-page/",
+    "current_designation": "Consultant - Engineering & Digital Transformation",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "B2B SaaS & Product Engineering",
+    "relevant_tech_roles": "Frontend Developer, React Native Engineer, SDE-2",
+    "associated_companies": "Postman, Hasura, Innovaccer"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Meghana Singh",
+    "linkedin_profile": "https://www.linkedin.com/in/meghana-singh-teksystems/",
+    "current_designation": "Senior Recruiter - IT Staffing",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Banking Tech",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, SDE-2",
+    "associated_companies": "Citi, JPMC, Wells Fargo"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Bharathi Dev",
+    "linkedin_profile": "https://www.linkedin.com/in/bharathi-dev-talent/",
+    "current_designation": "Talent Acquisition Specialist",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Cloud Applications & Modern Web",
+    "relevant_tech_roles": "React.js Developer, Frontend Engineer, TypeScript Specialist",
+    "associated_companies": "Amazon, Cisco, VMware"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Angela R",
+    "linkedin_profile": "https://www.linkedin.com/in/angela-r-allegis/",
+    "current_designation": "Technical Recruiter - Global Services",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Financial Systems & Digital Trading",
+    "relevant_tech_roles": "Frontend Engineer, React Native Developer, SDE-2",
+    "associated_companies": "State Street, Broadridge, Franklin Templeton"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Surendran Vijayakumar",
+    "linkedin_profile": "https://www.linkedin.com/in/surendran-vijayakumar-teksystems/",
+    "current_designation": "Senior Technical Recruiter",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Capital Markets",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, UI Engineer",
+    "associated_companies": "Bank of America, Morgan Stanley, Standard Chartered"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Nithin Reddy",
+    "linkedin_profile": "https://www.linkedin.com/in/nithin-reddy-teksystems/",
+    "current_designation": "Lead Technical Talent Acquisition Partner",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Enterprise Software & Cloud Platforms",
+    "relevant_tech_roles": "SDE-2 Frontend, React.js Lead, Full Stack Engineer",
+    "associated_companies": "ServiceNow, Microsoft, Oracle"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Keerthana Murali",
+    "linkedin_profile": "https://www.linkedin.com/in/keerthana-murali-allegis/",
+    "current_designation": "Technical Recruitment Consultant",
+    "location": "Chennai, Tamil Nadu, India",
+    "recruitment_domain": "Global GCC & Digital Payments",
+    "relevant_tech_roles": "Frontend Engineer, React Developer, SDE-2",
+    "associated_companies": "PayPal, Visa, Mastercard"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Abhishek Chatterjee",
+    "linkedin_profile": "https://www.linkedin.com/in/abhishek-chatterjee-teksystems/",
+    "current_designation": "Delivery Lead - IT Talent Solutions",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "High-Throughput Enterprise Architecture",
+    "relevant_tech_roles": "Frontend Engineer, React/TypeScript Developer, SDE-2",
+    "associated_companies": "Dell Technologies, Intel, Qualcomm"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Snehal Patil",
+    "linkedin_profile": "https://www.linkedin.com/in/snehal-patil-allegisgroup/",
+    "current_designation": "Senior IT Recruiter - Engineering",
+    "location": "Pune, Maharashtra, India",
+    "recruitment_domain": "Automotive Embedded & Web Systems",
+    "relevant_tech_roles": "React.js Developer, Frontend Engineer, UI Developer",
+    "associated_companies": "Mercedes-Benz R&D, Eaton, ZF Group"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Venkatesh Prasad",
+    "linkedin_profile": "https://www.linkedin.com/in/venkatesh-prasad-teksystems/",
+    "current_designation": "Senior Talent Acquisition Specialist",
+    "location": "Bengaluru, Karnataka, India",
+    "recruitment_domain": "Enterprise GCC & Banking Tech",
+    "relevant_tech_roles": "Frontend Software Engineer, React Developer, SDE-2",
+    "associated_companies": "Goldman Sachs, Citi, Fidelity"
+  },
+  {
+    "agency": "Allegis Group / TEKsystems India",
+    "person_name": "Priyanka Nair",
+    "linkedin_profile": "https://www.linkedin.com/in/priyanka-nair-allegis/",
+    "current_designation": "Technical Talent Partner",
+    "location": "Hyderabad, Telangana, India",
+    "recruitment_domain": "Cloud Infrastructure & Digital Platforms",
+    "relevant_tech_roles": "React Native Developer, Frontend Engineer, SDE-2",
+    "associated_companies": "Salesforce, Google Cloud, AWS"
+  }
+]
